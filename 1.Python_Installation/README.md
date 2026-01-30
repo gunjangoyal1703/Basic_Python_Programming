@@ -1,4 +1,4 @@
-# <ins>**Python-Installation**</ins>
+# <ins>**Python Installation**</ins>
 ## **AIM**<br>
 To study the basics of Python programming language, understand the Python execution environment, install Python and Jupyter Notebook using Anaconda distribution, and explore various Python IDEs including Google Colab.<br>
 ## **OBJECTIVES**<br>
