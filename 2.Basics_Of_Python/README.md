@@ -1,4 +1,4 @@
-# <ins>**Basics-of-Python**</ins>
+# <ins>**Basics of Python**</ins>
 
 ## **AIM** <br>
 To study the Python programming environment and interface, understand execution modes, variables, data types, operators, and basic input/output operations in Python.
