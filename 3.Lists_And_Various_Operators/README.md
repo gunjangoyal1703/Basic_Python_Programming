@@ -1,4 +1,4 @@
-# <ins> Study-of-Lists-and-various-Operators</ins> <br />
+# <ins>Lists And Various Operators</ins> <br />
 ## **AIM** <br/>
 To understand Python lists and perform operations such as indexing, slicing, and
 using built-in list methods. <br/>
