@@ -1,4 +1,4 @@
-# <ins>Study Of Tuples</ins>
+# <ins>Tuples</ins>
 ## **AIM** </br>
 To understand Python tuples and perform operations such as creation, indexing,
 slicing, and use of built-in functions. </br>
