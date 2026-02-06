@@ -1,6 +1,14 @@
 # <ins>Conditional Statements</ins>
 ## **AIM**
+To study and implement conditional logic, including if, elif, and else statements, in Python to control the flow of program execution. 
 ## **OBJECTIVES**
+* To understand the concept of conditional execution and boolean expressions.
+* To perform basic conditional checks using the if statement.
+* To apply multi-way branching using elif to handle multiple conditions.
+* To implement else blocks to handle default scenarios when no prior conditions are met.
+* To understand nested conditional statements and their application in complex decision-making processes.
+* To apply comparison and logical operators (e.g., and, or, not) within conditional statements.
+* To utilize conditional expressions (ternary operator) for concise assignments. 
 ## **THEORY**
 **Conditional statements** in Python are the **"decision-making" tools** that allow your code to **execute different actions** based on whether a specific **condition is True or False**.
 ### 1. Fundamental Keywords & Syntax
