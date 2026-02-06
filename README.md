@@ -16,6 +16,7 @@ To simplify Python concepts. This helps understand in a unique style which is ea
 4. Tuples
 5. Sets and Dictionaries
 6. Conditional Statements
+7. Loops
   
 ## **CONCLUSION**  
 The ultimate goal of this repository is to make python easier than it already is.
