@@ -1,4 +1,4 @@
-# <ins>Python_Programming</ins>
+# <ins>Basic_Python_Programming</ins>
 
 ## **AIM**
 To simplify Python concepts. This helps understand in a unique style which is easier to understand compared to dense official documentation.</br>
