@@ -1,79 +1,67 @@
 # <ins>Study_Numpy_Library</ins>
 ## **AIM** </br>
-To study and implement the NumPy (Numerical Python) library to perform efficient numerical computations, manage multi-dimensional arrays, and execute high-level mathematical functions.</br>
+To study the fundamentals of the NumPy (Numerical Python) library in Python, focusing on its core data structure, the n-dimensional array (ndarray), and its primary functionalities for numerical computation.
 
 ## **OBJECTIVES** </br>
-* To learn how to create arrays using functions like **np.array(), np.zeros(), np.ones(), and np.arange()**. </br>
-* To perform Statistical Analysis **(mean, median, standard deviation)** and Linear Algebra operations **(dot products, transposes)**. </br>
-* To explore Reshaping and Stacking techniques for **manipulating data dimensions**.</br>
-
+* To learn the declaration and installation of the NumPy library.</br>
+* To understand the creation and manipulation of NumPy arrays.</br>
+* To explore different data types (dtype) supported by NumPy.</br>
+* To implement various inbuilt functions for mathematical and statistical operations.</br>
+  
 ## **THEORY** </br>
 
-NumPy is the fundamental package for scientific computing in Python. It provides a high-performance multidimensional array object and tools for working with these arrays. Unlike Python lists, NumPy arrays are stored in contiguous memory locations, making them significantly faster for processing.
+NumPy is the foundational package for scientific computing in Python. It provides a high-performance multidimensional array object and tools for working with these arrays.
 
-### 1. Universal Functions (ufuncs)
-The core of NumPy's mathematical capability lies in Universal Functions (ufuncs). 
-* **Theory:** A ufunc is a "vectorized" wrapper that operates on ndarrays in an element-by-element fashion.
-* **Key Features:** They support broadcasting (operating on arrays of different shapes) and type casting.
-* **Categories:**
-**Arithmetic:** add(), subtract(), multiply(), divide(), power().</br>
-**Trigonometric:** sin(), cos(), tan(), and inverse functions like arcsin(). </br>
-**Logarithmic/Exponential:** exp(), log(), log10(), and log2(). 
-
-### 2. Array Creation Functions
-These routines provide efficient ways to initialize data without manually populating elements. 
-* **array():** Converts Python lists or tuples into an ndarray.
-* **zeros() / ones():** Creates arrays of a specified shape filled with 0s or 1s.
-* **arange():** Returns evenly spaced values within a given interval, similar to Python's range().
-* **linspace():** Generates a specific number of samples between two points, useful when the exact step size is less important than the count.
-  
-### 3. Manipulation & Transformation Functions
-These functions alter the structure or arrangement of data without necessarily changing the values. 
-* **reshape():** Changes the array shape (e.g., 1D to 2D) without changing its total size.
-* **transpose() (or .T):** Reverses or permutes the axes of an array, turning rows into columns.
-* **concatenate():** Joins a sequence of arrays along an existing axis.
-* **sort():** Returns a sorted copy of an array along a specified axis. 
-
-### 4. Statistical & Aggregation Functions
-These functions reduce the dimensions of an array to provide summary metrics. 
-* **Descriptive Statistics:** mean(), median(), std() (standard deviation), and var() (variance).
-* **Extrema:** min(), max(), argmin(), and argmax() (returns indices of min/max values).
-* **Sums & Products:** sum() for total addition and prod() for total multiplication across elements or axes. 
-
-### 5. Specialized Domain Functions
-* **Linear Algebra (numpy.linalg):** Provides low-level algorithms for matrix_rank(), inv() (inverse), and det() (determinant).
-* **Random Sampling (numpy.random):** Functions like rand() or randint() to generate arrays of random data for simulations.
-
-### 6. Fundamental Data Structure
-* **ndarray (N-dimensional array):** The central feature of NumPy. It is a table of elements (usually numbers), all of the same type, indexed by a tuple of non-negative integers.
-* **Dimensions (Axes):** In NumPy, dimensions are called axes. A 2D array has two axes: axis 0 (rows) and axis 1 (columns).
-* **Axes & Rank:** Dimensions in NumPy are called axes. The number of axes determines the rank of the array.
-* **Contiguous Memory:** Unlike lists, NumPy arrays store elements in adjacent memory locations, allowing for faster CPU access (locality of reference).
-  
-### 7. Core Concepts
-* **Vectorization:** The practice of replacing explicit loops with array expressions. This allows operations to be performed on entire arrays at once, leveraging optimized C and Fortran code under the hood.
-* **Broadcasting:** A powerful mechanism that allows NumPy to work with arrays of different shapes during arithmetic operations. The smaller array is "broadcast" across the larger array so they have compatible shapes.
-* **Universal Functions (ufuncs):** Functions like np.sin(), np.exp(), and np.add() that operate element-wise on arrays.
-  
-### 8. Common Operations Table
-|**Feature** |	**Python Lists**|	**NumPy Arrays**|
- |:---|:---|:---|
-|**Data Types**	|Heterogeneous (mixed types)|	Homogeneous (same type)|
-|**Size**	|Dynamic (can grow/shrink)|	Fixed size upon creation|
-|**Memory**|	High overhead per element	|Memory-efficient (contiguous)|
-|**Performance**|	Slower for numerical tasks|	Fast (optimized C-code)|
-|**Math Operations**|	Requires explicit loops	|Supports vectorized arithmetic|
-
-### 9. Array Manipulation & Selection
-* **Reshaping:** Using reshape() to change dimensions without altering data.
-* **Boolean Indexing:** Selecting data based on specific conditions (e.g., arr[arr > 0]).
-* **Aggregation:** Reducing data using sum(), mean(), min(), or max() along specific axes.
-  
-### 10. Real-World Applications
-* **Data Analysis:** Cleaning raw data and calculating statistical baselines.
-* **Machine Learning:** Handling feature matrices for models in Scikit-learn or TensorFlow.
-* **Image Processing:** Representing images as 3D arrays for transformations and filtering.
-* **Finance:** Performing risk assessments and time-series modeling.
-  
+### 1.Declaration & Installation
+NumPy can be installed using the command <ins>pip install numpy</ins>.  </br>
+To use it in a script, it is typically imported with an alias:<ins>import numpy as np</ins>  </br>
+### 2.NumPy Arrays (ndarray)
+The primary object is the **ndarray**, a homogeneous multidimensional array. Unlike Python lists, NumPy arrays must contain elements of the **same data type**, which allows for more efficient memory storage and faster processing.</br>
+* **Creation:** Arrays can be created from Python lists using np.array().</br>
+* **Dimensions:** They can be 0-D (scalars), 1-D (vectors), or multi-dimensional (matrices).</br>
+### 3.Data Types (dtype)
+NumPy supports a wide range of numerical data types, including **int32**, **int64**, **float64**, **bool**, and **complex**. </br>
+The data type can be explicitly defined during array creation using the **dtype** parameter.</br>
+### 4.Inbuilt Functions:
+NumPy includes a vast library of functions for:
+* **Array Creation:** np.zeros(), np.ones(), np.arange(), and np.linspace().
+* **Mathematical Operations:** np.add(), np.sqrt(), np.exp(), and np.sin().
+* **Statistical Analysis:** np.mean(), np.median(), np.std(), np.min(), and np.max().
+* **Shape Manipulation:** np.reshape(), np.transpose(), and np.concatenate()
+### 5.Commonly Used NumPy Inbuilt Functions
+|Category	|Function|	Description|
+|:---|:---|:---|
+|Array Creation	|np.array()|	Creates an array from a list or tuple.|
+||np.zeros()	|Creates an array filled with zeros of a specified shape.|
+||np.ones()|	Creates an array filled with ones.|
+||np.arange()	|Returns evenly spaced values within a given interval (like range).|
+||np.linspace()	|Returns a specific number of even spaces between two points.|
+|Shape & Size	|np.reshape()	|Changes the shape of an array without changing its data.|
+||np.ndim	|Returns the number of array dimensions (axes).|
+||np.size|	Returns the total number of elements in the array.|
+||np.flatten()	|Collapses a multi-dimensional array into one dimension.|
+|Math & Stats	|np.sum()|	Computes the sum of array elements (can be per axis).|
+||np.mean()	|Computes the arithmetic mean.|
+||np.sqrt()|	Calculates the non-negative square root of each element.|
+||np.min() / np.max()	|Finds the minimum or maximum value in the array.|
+||np.dot()	|Computes the dot product of two arrays (matrix multiplication).|
+|Random	|np.random.rand()	|Creates an array of specified shape with random values [0, 1).|
+||np.random.randint()|	Generates random integers within a specific range.|
+### 6. Real Life Applications
+#### 1. Data Science and Machine Learning
+* <ins>Feature Engineering:</ins> NumPy is used to normalize data (scaling values to a common range) and handle missing values before training models.
+* <ins>Model Implementation:</ins> It serves as the mathematical engine for algorithms like Linear Regression, Logistic Regression, and K-Nearest Neighbors (KNN) by calculating weights and loss functions through matrix multiplication.
+* <ins>Foundational Base:</ins> Major AI frameworks like TensorFlow, PyTorch, and Scikit-learn rely on NumPy arrays as their primary data structure. 
+#### 2. Image and Signal Processing
+* <ins>Computer Vision:</ins> Digital images are essentially 3D arrays (Height × Width × RGB channels). NumPy is used for image manipulation such as cropping, rotating, flipping, and applying filters like Gaussian blur for noise reduction.
+* <ins>Signal Analysis:</ins> Engineers use NumPy’s Fast Fourier Transform (FFT) functions to analyze frequency components in audio signals, medical data (like pulse oximeters), or sensor data.
+#### 3. Financial and Business Analytics
+* <ins>Risk Management:</ins> Financial analysts use NumPy to calculate volatility (via standard deviation), Value at Risk (VaR), and correlation coefficients between different assets in a portfolio.
+* <ins>Predictive Simulations:</ins> It powers Monte Carlo simulations to forecast potential stock price movements by generating thousands of random price paths.
+* <ins>Time Value of Money:</ins> It simplifies calculating present/future values, compound interest, and internal rates of return (IRR) without slow manual loops. 
+#### 4. Scientific Research and Engineering
+* <ins>Physics Simulations:</ins> Used to simulate complex physical systems, such as planetary motion or fluid dynamics, by representing physical relationships as matrices.
+* <ins>Bioinformatics:</ins> Researchers utilize NumPy to analyze large-scale genetic data and predict protein structures.
+* <ins>Control Systems:</ins> Essential in engineering for state-space models and circuit analysis (calculating impedance and frequency response).
 ## **CONCLUSION**  </br>
 We are replacing slow Python loops with vectorized operations and managing memory more effectively through ndarrays, it provides the performance and high-level syntax necessary for modern scientific research and data-driven software.
