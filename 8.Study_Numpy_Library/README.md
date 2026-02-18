@@ -22,7 +22,7 @@ The primary object is the **ndarray**, a homogeneous multidimensional array. Unl
 ### 3.Data Types (dtype)
 NumPy supports a wide range of numerical data types, including **int32**, **int64**, **float64**, **bool**, and **complex**. </br>
 The data type can be explicitly defined during array creation using the **dtype** parameter.</br>
-### 4.Inbuilt Functions:
+### 4.Inbuilt Functions
 NumPy includes a vast library of functions for:
 * **Array Creation:** np.zeros(), np.ones(), np.arange(), and np.linspace().
 * **Mathematical Operations:** np.add(), np.sqrt(), np.exp(), and np.sin().
