@@ -18,6 +18,7 @@ To simplify Python concepts. This helps understand in a unique style which is ea
 6. Conditional Statements
 7. Loops
 8. Study of Numpy Library
+9. Study of Pandas Library
   
 ## **CONCLUSION**  
 The ultimate goal of this repository is to make python easier than it already is.
