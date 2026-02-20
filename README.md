@@ -19,6 +19,7 @@ To simplify Python concepts. This helps understand in a unique style which is ea
 7. Loops
 8. Study of Numpy Library
 9. Study of Pandas Library
+10. Creating & Uploading a Dataset
   
 ## **CONCLUSION**  
 The ultimate goal of this repository is to make python easier than it already is.
