@@ -40,13 +40,13 @@ Uploading to GitHub isn't just "moving a file"; it is a Distributed Version Cont
 ### 7. Data Integrity and Validation
 Before uploading, "Checksums" (like MD5) are often calculated. This ensures that the file uploaded to the cloud is a bit-for-bit perfect match of the file created in Python, preventing data corruption during the transfer process.
 ### 8. Real Life Applications
-#### a.Open Source Research
+#### I.Open Source Research
 * <ins>Usage:</ins> Scientists create datasets from experiments and upload them to GitHub to accompany their research papers.</br>
 * <ins>Action:</ins> Allows other researchers to verify findings by downloading the "Raw" data directly into their notebooks.</br>
-#### b.Machine Learning Competitions
+#### II.Machine Learning Competitions
 * <ins>Usage:</ins> Platforms like Kaggle host datasets for global challenges.</br>
 * <ins>Action:</ins> Data engineers use the Kaggle API to automate the upload of massive training sets (GBs) without using a browser.</br>
-#### c.Automated Reporting
+#### III.Automated Reporting
 * <ins>Usage:</ins> Financial bots scrape daily stock prices and generate a new CSV every 24 hours.</br>
 * <ins>Action:</ins> The script automatically pushes the updated file to a private repo, serving as a dynamic database for dashboard tools.</br>
 
