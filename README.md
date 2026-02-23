@@ -10,16 +10,16 @@ To simplify Python concepts. This helps understand in a unique style which is ea
 * **Quick Reference:** Immediate and convenient reference for all python topics.</br>
 
 ## **CONTENTS**
-A. Python Installation
-B. Basics of Python
-C. Lists and Various Operators
-D. Tuples
-E. Sets and Dictionaries
-F. Conditional Statements
-G. Loops
-H. Study of Numpy Library
-I Study of Pandas Library
-J. Creating & Uploading a Dataset
+A. Python Installation</br>
+B. Basics of Python</br>
+C. Lists and Various Operators</br>
+D. Tuples</br>
+E. Sets and Dictionaries</br>
+F. Conditional Statements</br>
+G. Loops</br>
+H. Study of Numpy Library</br>
+I Study of Pandas Library</br>
+J. Creating & Uploading a Dataset</br>
   
 ## **CONCLUSION**  
 The ultimate goal of this repository is to make python easier than it already is.
