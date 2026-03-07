@@ -51,7 +51,7 @@ D. Human Resources & Corporate Management</br>
 Load the dataset into df.</br>
 Identify the target categorical column ('Category').</br>
 Invoke df['Category'].value_counts().</br>
-Display the resulting counts (e.g., Electronics: 4, Clothing: 3, Grocery: 3) (p. 2).</br>
+Display the resulting counts (e.g., Electronics: 4, Clothing: 3, Grocery: 3).</br>
 ### **Program 2: Multi-Variable Cross-Tabulation (Payment vs. Category)**</br>
 * **Logic:** Create a contingency table to see which payment methods are favored by which product categories.</br>
 * **Algorithm:**</br>
@@ -65,7 +65,7 @@ Result shows Electronics is 100% UPI-based in this sample.</br>
 Select the 'Grade' column from the second dataset.</br>
 Use value_counts(normalize=True).</br>
 Multiply the result by 100.</br>
-** **Result:** Grade B (40.0%), Grade A (36.67%), Grade C (23.33%) .</br>
+* **Result:** Grade B (40.0%), Grade A (36.67%), Grade C (23.33%) .</br>
 ### **Program 4: Conditional Data Filtering (Electronics Orders)**</br>
 * **Logic:** Isolate a specific segment of the data for deep-dive analysis.</br>
 * **Algorithm:**</br>
@@ -80,8 +80,8 @@ Apply .value_counts() to the grouped object.</br>
 Display a nested list of students, their gender, and grades, sorted by their respective departments </br>
 
 ## **CONCLUSION**  </br>
-The experiment provided hands-on experience in handling categorical data using Python. </br>
-Key takeaways include the ability to quickly summarize large datasets using value_counts and the power of crosstab in revealing hidden relationships between variables. For instance, the data revealed that standard delivery is predominantly used by new customers, while returning customers favor express delivery. </br>
-Such insights are vital for data-driven decision-making in any technical or business environment.</br>
+ * The experiment provided hands-on experience in handling categorical data using Python. </br>
+ * Key takeaways include the ability to quickly summarize large datasets using value_counts and the power of crosstab in revealing hidden relationships between variables. For instance, the data revealed that standard delivery is predominantly used by new customers, while returning customers favor express delivery. </br>
+ * Such insights are vital for data-driven decision-making in any technical or business environment.</br>
 
 
