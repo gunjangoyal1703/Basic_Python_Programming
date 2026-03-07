@@ -20,6 +20,7 @@ G. Loops</br>
 H. Study of Numpy Library</br>
 I Study of Pandas Library</br>
 J. Creating & Uploading a Dataset</br>
+K. Categorica Dat Analysis</br>
   
 ## **CONCLUSION**  
 The ultimate goal of this repository is to make python easier than it already is.
