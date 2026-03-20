@@ -51,5 +51,5 @@ The final phase of the theory involves programmatic verification. By using **isn
 * **E-commerce:** Standardizing product names and categories from different vendors to create a unified search experience.</br>
 * **Finance:** Cleaning transaction history and date formats to detect fraudulent activity patterns across different time zones.</br>
   
-## **CONCLUSION**  </br></br>
+## **CONCLUSION**  </br>
 By implementing data wrangling techniques, we successfully transformed messy, incomplete datasets into structured, clean formats ready for analysis. The experiment demonstrates that statistical imputation is a powerful tool for retaining data volume while maintaining the integrity of the dataset 
