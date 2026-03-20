@@ -28,7 +28,7 @@ Inconsistent data entry (e.g., "cse" vs. "CSE") can lead to fragmented analysis 
 ### 4. Verification and Validation
 The final phase of the theory involves programmatic verification. By using **isna().sum()**, a practitioner confirms that the **"Dirty Data"** has been successfully mitigated before the dataset is exported for final use.</br>
 
-## **The Dataset Used Contains:**
+## **DATASET CONTAINS**
 * Numerical and categorical columns</br>
 * Missing values in different fields</br>
 * Real-world structured data for preprocessing practice</br>
@@ -46,7 +46,7 @@ The final phase of the theory involves programmatic verification. By using **isn
 #### 5. **Standardization:** Use string methods like **.str.upper()** to ensure uniform text formatting.</br>
 #### 6. **Export:** Save the processed DataFrame to a new CSV file using **.to_csv()**.</br>
 
-## **Real-Life Applications:**</br>
+## **REAL LIFE APPLICATIONS**</br>
 * **Healthcare Records:** Filling in missing patient biometric data based on average demographic stats to predict health risks.</br>
 * **E-commerce:** Standardizing product names and categories from different vendors to create a unified search experience.</br>
 * **Finance:** Cleaning transaction history and date formats to detect fraudulent activity patterns across different time zones.</br>
