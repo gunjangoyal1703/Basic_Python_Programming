@@ -23,6 +23,8 @@ To simplify Python concepts. This helps understand in a unique style which is ea
 |I. |Study of Pandas Library|
 |J.| Creating & Uploading a Dataset|
 |K. |Categorica Dat Analysis|
+|L.|Data Wrangling|
+|M.|
   
 ## **CONCLUSION**  
 The ultimate goal of this repository is to make python easier than it already is.
