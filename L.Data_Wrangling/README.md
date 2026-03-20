@@ -46,7 +46,7 @@ The final phase of the theory involves programmatic verification. By using **isn
 #### 5. **Standardization:** Use string methods like **.str.upper()** to ensure uniform text formatting.</br>
 #### 6. **Export:** Save the processed DataFrame to a new CSV file using **.to_csv()**.</br>
 
-## **REAL LIFE APPLICATIONS**</br>
+## **REAL-LIFE APPLICATIONS**</br>
 * **Healthcare Records:** Filling in missing patient biometric data based on average demographic stats to predict health risks.</br>
 * **E-commerce:** Standardizing product names and categories from different vendors to create a unified search experience.</br>
 * **Finance:** Cleaning transaction history and date formats to detect fraudulent activity patterns across different time zones.</br>
