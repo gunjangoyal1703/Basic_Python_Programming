@@ -24,7 +24,7 @@ To simplify Python concepts. This helps understand in a unique style which is ea
 |J.| Creating & Uploading a Dataset|
 |K. |Categorica Dat Analysis|
 |L.|Data Wrangling|
-|M.|
+|M.|Data Binning & Formatting|
   
 ## **CONCLUSION**  
 The ultimate goal of this repository is to make python easier than it already is.
