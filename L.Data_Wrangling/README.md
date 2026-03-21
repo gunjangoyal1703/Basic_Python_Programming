@@ -9,7 +9,6 @@ The aim of this experiment is to understand data preprocessing techniques and le
 * To export cleaned data into CSV format for further analysis.</br>
 ## **THEORY** </br>
 Data Wrangling is the process of transforming and mapping data from one "raw" data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics. </br>
-Key techniques include:</br>
 
 ### 1. Handling Missing Data (Null Values)
 Missing data is a common occurrence in real-world datasets, often represented as NaN (Not a Number) or NaT (Not a Time). Theory dictates two main strategies:</br>
