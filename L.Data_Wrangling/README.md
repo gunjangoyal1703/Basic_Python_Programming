@@ -11,20 +11,20 @@ The aim of this experiment is to understand data preprocessing techniques and le
 Data Wrangling is the process of transforming and mapping data from one "raw" data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics. </br>
 
 ### 1. Handling Missing Data (Null Values)
-Missing data is a common occurrence in real-world datasets, often represented as NaN (Not a Number) or NaT (Not a Time). Theory dictates two main strategies:</br>
+Missing data is a common occurrence in real-world datasets, often represented as **NaN (Not a Number)** or **NaT (Not a Time)**. Theory dictates two main strategies:</br>
 * **Deletion:** Using **dropna()** to remove rows or columns with missing values. This is preferred when the dataset is large and the missingness is random.</br>
 * **Imputation:** Filling in missing values to preserve data volume.</br>
-**Mean Imputation:** Best for normally distributed numerical data (e.g., Average Age).</br>
-**Median Imputation:** Best for numerical data with outliers, as it is more robust (e.g., Exam Marks).</br>
-**Mode Imputation:** Essential for categorical data, where the most frequent occurrence (e.g., AirBag type) fills the gap.</br>
+**Mean Imputation:** Best for normally distributed numerical data **(e.g., Average Age**).</br>
+**Median Imputation:** Best for numerical data with outliers, as it is more robust **(e.g., Exam Marks)**.</br>
+**Mode Imputation:** Essential for categorical data, where the most frequent occurrence **(e.g., AirBag type)** fills the gap.</br>
 ### 2. Data Type Coercion
-Raw data often imports as "objects" (strings) even if they represent numbers or dates.</br>
+Raw data often imports as "objects" **(strings)** even if they represent numbers or dates.</br>
 * **Numeric Conversion:** Functions like **pd.to_numeric** with **errors='coerce'** are used to force strings into floats, turning unparseable data into **NaN** for standardized handling.</br>
 * **Temporal Standardization:** Converting various date strings into a unified **datetime64** format ensures that time-series analysis can be performed accurately.</br>
 ### 3. Data Normalization and Consistency
-Inconsistent data entry (e.g., "cse" vs. "CSE") can lead to fragmented analysis where one category is treated as two. Theoretical best practice involves:</br>
+Inconsistent data entry **(e.g., "cse" vs. "CSE")** can lead to fragmented analysis where one category is treated as two. Theoretical best practice involves:</br>
 * **Case Uniformity:** Using **.str.upper()** or **.str.lower()** to ensure categorical strings match perfectly.</br>
-* **Placeholder Replacement:** Identifying non-standard nulls (like a dash -) and replacing them with a computer-readable **np.nan**.</br>
+* **Placeholder Replacement:** Identifying non-standard nulls **(like a dash -)** and replacing them with a computer-readable **np.nan**.</br>
 ### 4. Verification and Validation
 The final phase of the theory involves programmatic verification. By using **isna().sum()**, a practitioner confirms that the **"Dirty Data"** has been successfully mitigated before the dataset is exported for final use.</br>
 
