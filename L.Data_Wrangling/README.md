@@ -38,7 +38,7 @@ The final phase of the theory involves programmatic verification. By using **isn
 #### 1. **Load Dataset:** Import the raw data using **pd.read_csv()**.</br>
 #### 2. **Initial Inspection:** Check for missing values using **.isna().sum()**.</br>
 #### 3. **Data Cleaning:**</br>
-* Replace placeholder symbols (like "-") with **NaN**.</br>
+* Replace placeholder symbols **(like "-")** with **NaN**.</br>
 * Convert object columns to appropriate numeric or datetime types.</br>
 #### 4. **Handle Missing Values:**</br>
 * Apply **fillna()** using mean for continuous data and mode for categorical data.</br>
