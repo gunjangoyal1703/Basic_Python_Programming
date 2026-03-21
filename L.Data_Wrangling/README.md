@@ -34,7 +34,7 @@ The final phase of the theory involves programmatic verification. By using **isn
 * Real-world structured data for preprocessing practice</br>
 * The dataset is used to demonstrate various data cleaning and preprocessing techniq</br>
 
-## **ALGORITHMS**
+## **ALGORITHM**
 #### 1. **Load Dataset:** Import the raw data using **pd.read_csv()**.</br>
 #### 2. **Initial Inspection:** Check for missing values using **.isna().sum()**.</br>
 #### 3. **Data Cleaning:**</br>
