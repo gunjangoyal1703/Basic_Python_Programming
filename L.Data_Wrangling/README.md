@@ -35,16 +35,20 @@ The final phase of the theory involves programmatic verification. By using **isn
 * The dataset is used to demonstrate various data cleaning and preprocessing techniq</br>
 
 ## **ALGORITHM**
-#### 1. **Load Dataset:** Import the raw data using **pd.read_csv()**.</br>
-#### 2. **Initial Inspection:** Check for missing values using **.isna().sum()**.</br>
+#### 1. **Load Dataset:** 
+Import the raw data using **pd.read_csv()**.</br>
+#### 2. **Initial Inspection:** 
+Check for missing values using **.isna().sum()**.</br>
 #### 3. **Data Cleaning:**</br>
 * Replace placeholder symbols **(like "-")** with **NaN**.</br>
 * Convert object columns to appropriate numeric or datetime types.</br>
 #### 4. **Handle Missing Values:**</br>
 * Apply **fillna()** using mean for continuous data and mode for categorical data.</br>
 * Use **dropna()** if the analysis requires only complete records.</br>
-#### 5. **Standardization:** Use string methods like **.str.upper()** to ensure uniform text formatting.</br>
-#### 6. **Export:** Save the processed DataFrame to a new CSV file using **.to_csv()**.</br>
+#### 5. **Standardization:** 
+Use string methods like **.str.upper()** to ensure uniform text formatting.</br>
+#### 6. **Export:** 
+Save the processed DataFrame to a new CSV file using **.to_csv()**.</br>
 
 ## **REAL-LIFE APPLICATIONS**</br>
 * **Healthcare Records:** Filling in missing patient biometric data based on average demographic stats to predict health risks.</br>
