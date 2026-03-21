@@ -40,17 +40,17 @@ Once data is binned and formatted, it must be organized to draw conclusions.
 
 
 ## **ALGORITHMS**
-#### 1. Initialize Data:
+### 1. Initialize Data:
 Create a dictionary and convert it into a pandas DataFrame. 
-#### 2. Define Bins:
+### 2. Define Bins:
 Create lists of numerical edges (bins) and corresponding text labels. 
-#### 3. Apply Binning:
+### 3. Apply Binning:
 Use <ins>pd.cut(column, bins, labels)</ins> to create a new categorical column. 
-#### 4. Format Types:
+### 4. Format Types:
 Convert numerical columns to float using <ins>.astype</ins>(float).
-#### 5. Standardize Text:
+### 5. Standardize Text:
 Apply <ins>.str.upper()</ins> to string columns for uniformity. 
-#### 6. Analyze & Sort:
+### 6. Analyze & Sort:
 Use <ins>.sort_values()</ins> to arrange the data and <ins>.unique()</ins> to verify categories. 
 
 ## **REAL-LIFE APPLICATIONS**
