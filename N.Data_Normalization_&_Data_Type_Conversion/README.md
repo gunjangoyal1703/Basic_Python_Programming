@@ -9,10 +9,10 @@
 * 
 
 ## TOOLS
-* Python 3 — Primary language used for data manipulation and preprocessing
-* Pandas **(pandas)** — For creating and manipulating DataFrames, and applying get_dummies() for encoding
-* NumPy **(numpy)** — For numerical computations and array operations
-* Scikit-learn **(sklearn.preprocessing)** — Specifically LabelEncoder class for converting categorical labels into numeric form
+* **Python 3** — Primary language used for data manipulation and preprocessing
+* **Pandas** **(pandas)** — For creating and manipulating DataFrames, and applying get_dummies() for encoding
+* **NumPy** **(numpy)** — For numerical computations and array operations
+* **Scikit-learn** **(sklearn.preprocessing)** — Specifically LabelEncoder class for converting categorical labels into numeric form
 
 ## DATASET USED
 * **Custom Product Dataset** — Manually created dictionary-based DataFrame (Laptop, Mobile, Tablet, etc.)
