@@ -1,7 +1,7 @@
-# <ins>Basic_Python_Programming</ins>
+# <ins>Basic_Python_Programming</ins> <br><br>
 
-## Github Profile: https://github.com/gunjangoyal1703 
-## HackerRank Profile: 
+### Github Profile: https://github.com/gunjangoyal1703 <br><br>
+### HackerRank Profile: https://www.hackerrank.com/profile/gunjan_goyal1703 <br><br>
 
 ## **AIM**
 To simplify Python concepts. This helps understand in a unique style which is easier to understand compared to dense official documentation.</br>
