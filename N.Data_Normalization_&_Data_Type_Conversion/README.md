@@ -28,61 +28,61 @@ A. Data Normalization </br>
 B. Data Type Conversion. </br>
 These techniques ensure that the data is consistent, comparable, and suitable for further analysis or model building.</br><br>
 
-### PART A : DATA NORMALIZATION<br>
+### <ins>PART A : DATA NORMALIZATION</ins><br>
 Data Normalization is the process of rescaling numerical data so that it fits within a specific range or follows a particular distribution. It prevents features with larger magnitudes from dominating those with smaller magnitudes during model training.</br>
-### 1. Min-Max Normalization
+### <ins>1. Min-Max Normalization</ins>
 Min-Max Normalization scales the data to a fixed range, typically [0, 1]. It preserves the original distribution of the data and is useful when the algorithm requires bounded input values.</br>
 #### FORMULA:</br>
 #### X' = (X - Xmin) / (Xmax - Xmin)</br>
 * **Xmin** = minimum value of the feature</br>
 * **Xmax** = maximum value of the feature</br>
 * **Result:** all values lie between 0 and 1</br>
-### 2. Z-Score Normalization (Standardization)
+### <ins>2. Z-Score Normalization (Standardization)</ins>
 Z-Score Normalization transforms data so that it has a mean of 0 and a standard deviation of 1. It is useful when the data follows a Gaussian (normal) distribution and is preferred for algorithms like SVM and Linear Regression.</br>
 #### FORMULA:</br>
 #### X' = (X - μ) / σ</br>
 * **μ** = mean of the feature</br>
 * **σ** = standard deviation of the feature</br>
 * **Result:** values are centered around 0</br>
-### 3. Decimal Scaling
+### <ins>3. Decimal Scaling</ins>
 Decimal Scaling normalizes data by dividing each value by an appropriate power of 10, such that the maximum absolute value becomes less than 1. It is the simplest normalization technique.</br>
 #### FORMULA:</br>
 #### X' = X / 10^j</br>
 * **j** = smallest integer such that max|X'| < 1</br><br>
 
-### PART B — DATA TYPE CONVERSION <br>
+### <ins>PART B — DATA TYPE CONVERSION</ins> <br>
 Machine learning algorithms work only with numerical data. However, many real-world datasets contain categorical (text-based) variables. Data Type Conversion refers to the process of transforming these categorical variables into numerical representations.</br>
-### 1. Label Encoding
+### <ins>1. Label Encoding</ins>
 * **Label Encoding:** assigns a unique integer to each category in a column. It is suitable for binary or ordinal categorical variables where the order matters.</br>
 * **Limitation:** For nominal categories with no natural order, label encoding can introduce unintended ordinal relationships.</br>
-### 2. One-Hot Encoding
+### <ins>2. One-Hot Encoding</ins>
 * **One-Hot Encoding:** creates a new binary column for each unique category in a variable. Each row gets a value of 1 in the column corresponding to its category and 0 in all others. It is used for nominal categorical variables.</br>
 * **Limitation:** Can significantly increase the number of columns if a variable has many unique categories (known as the curse of dimensionality).</br>
-### 3. Dummy Encoding
+### <ins>3. Dummy Encoding</ins>
 * **Dummy Encoding:** is similar to One-Hot Encoding but drops one of the created columns using drop_first=True. This avoids the Dummy Variable Trap, where two or more columns become perfectly correlated (multicollinearity), which can negatively affect regression models.</br>
 * **Limitation:** When **drop_first=True** is used, one category is dropped and treated as the reference/baseline category. This can sometimes make interpretation of results difficult, especially when all categories are equally important.</br><br>
 
-### Key Features of Scikit-learn
+### <ins>Key Features of Scikit-learn</ins>
 * Simple and efficient tools for data mining and data analysis</br>
 * Accessible to everybody and reusable in various contexts</br>
 * Built on NumPy, SciPy, and Matplotlib</br>
 * Open source and commercially usable under BSD license</br><br>
 
-### Advantages of Scikit-learn
+### <ins>Advantages of Scikit-learn</ins>
 * **Consistent API** — All classes follow the same **fit(), transform(), fit_transform()** pattern making it easy to learn and use.
 * **Pipeline Compatibility** — Preprocessing tools can be integrated into sklearn Pipelines, combining preprocessing and model training into a single streamlined workflow.
 * **Handles Unseen Data** — Once fitted on training data, the same encoder or scaler can transform new unseen data consistently, which is critical during model deployment.
 * **Scalability** — Works efficiently on both small and large datasets without requiring manual coding of transformation logic.
-* **Well Documented** — Extensive official documentation and a large community make it easy to learn and troubleshoot.
+* **Well Documented** — Extensive official documentation and a large community make it easy to learn and troubleshoot.<br>
 
-### API Methods
+### <ins>API Methods</ins>
 |Method|Description|
 |:---|:---|
 |fit(X)|Learns parameters (mean, min, max etc.) from the data|
 |transform(X)|Applies the learned transformation to the data|
 |fit_transform(X)|Performs fit and transform together in a single step|
 |inverse_transform(X)|Reverses the transformation back to original values|
-
+<br>
 
 ## **REAL-LIFE APPLICATIONS**
 * **Healthcare** — Patient vitals like blood pressure, heart rate, and glucose levels are normalized before being input into diagnostic ML models
