@@ -1,5 +1,8 @@
 # <ins>Basic_Python_Programming</ins>
 
+## Github Profile: 
+## HackerRank Profile: 
+
 ## **AIM**
 To simplify Python concepts. This helps understand in a unique style which is easier to understand compared to dense official documentation.</br>
 
@@ -25,6 +28,7 @@ To simplify Python concepts. This helps understand in a unique style which is ea
 |K. |Categorica Dat Analysis|
 |L.|Data Wrangling|
 |M.|Data Binning & Formatting|
+|N.|Data Normalization & Data Type Conversion|
   
 ## **CONCLUSION**  
 The ultimate goal of this repository is to make python easier than it already is.
