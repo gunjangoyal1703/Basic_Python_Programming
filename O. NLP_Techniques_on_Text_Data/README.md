@@ -94,7 +94,5 @@ It is used to identify the most significant words or "keywords" in a document, w
 
 
 ## **CONCLUSION**  
-In this experiment, we successfully studied and implemented various Text Preprocessing and NLP techniques using Python’s NLTK library.<br/>
-We observed that Tokenization is a critical first step for any text analysis, while Stop Word Removal significantly reduces data noise (pp. 2-3). We also compared Stemming and Lemmatization, concluding that while stemming is faster, lemmatization is more accurate as it considers the word's dictionary meaning and grammatical context.<br/>
-Furthermore, by applying POS Tagging and Frequency Distribution, we demonstrated how unstructured text data can be transformed into a structured format that machines can interpret for complex tasks like sentiment analysis and entity recognition.
+The preprocessing techniques and NLP techniques used for analyzing text data were studied successfully.
 
