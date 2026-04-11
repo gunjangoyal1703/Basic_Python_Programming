@@ -30,6 +30,7 @@ To simplify Python concepts. This helps understand in a unique style which is ea
 |M.|Data Binning & Formatting|
 |N.|Data Normalization & Data Type Conversion|
 |O.|NLP Techniques on Text Data|
+|P.|Basic Charts & Visual Encoding|
   
 ## **CONCLUSION**  
 The ultimate goal of this repository is to make python easier than it already is.
