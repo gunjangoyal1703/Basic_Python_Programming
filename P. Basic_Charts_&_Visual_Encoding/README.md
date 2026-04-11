@@ -1,4 +1,4 @@
-# <ins>asic Charts & Visual Encoding</ins>
+# <ins>Basic Charts & Visual Encoding</ins>
 ## **AIM**
 To implement and analyze various data visualization techniques using Matplotlib and Seaborn libraries in Python to represent different types of datasets effectively.
 ## OBJECTIVE
