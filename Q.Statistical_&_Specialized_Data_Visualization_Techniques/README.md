@@ -3,17 +3,17 @@
 
 ## **AIM** 
 To explore and implement advanced statistical and specialized data visualization techniques using Python libraries to perform comprehensive Exploratory Data Analysis (EDA) on structured datasets.<br>
+  
+## **OBJECTIVES** 
+* **Analyze Multi-dimensional Relationships:** To use tools like Pair Plots and Correlation Heatmaps to identify how different numeric variables (e.g., Credit Score, Income, Loan Amount) interact with one another. </br>
+* **Evaluate Data Distributions:** To implement density estimation techniques (KDE) and distribution visualizations (Violin and Boxplots) to detect outliers and understand the spread of data across different categories. </br>
+* **Perform Feature Engineering and Aggregation:** To create derived metrics like Debt-to-Income (DTI) ratios and utilize Pivot Tables to summarize data for deeper business insights. </br>
 
 ## LIBRARIES USED
 * **Pandas:** For data manipulation, cleaning, and creating complex structures like pivot tables and crosstabs.</br>
 * **NumPy:** Used for numerical operations, generating synthetic datasets, and applying logical conditions.</br>
 * **Matplotlib (pyplot):** The base library for creating static, basic visualizations like pie charts and subplots.</br>
 * **Seaborn:** Built on Matplotlib, it is utilized for more complex statistical plots such as heatmaps, violin plots, and pair plots.</br>
-  
-## **OBJECTIVES** 
-* **Analyze Multi-dimensional Relationships:** To use tools like Pair Plots and Correlation Heatmaps to identify how different numeric variables (e.g., Credit Score, Income, Loan Amount) interact with one another. </br>
-* **Evaluate Data Distributions:** To implement density estimation techniques (KDE) and distribution visualizations (Violin and Boxplots) to detect outliers and understand the spread of data across different categories. </br>
-* **Perform Feature Engineering and Aggregation:** To create derived metrics like Debt-to-Income (DTI) ratios and utilize Pivot Tables to summarize data for deeper business insights. </br> 
   
 ## **THEORY** 
 The process of Exploratory Data Analysis (EDA) is more than just plotting graphs; it is a philosophy of data investigation. It focuses on uncovering underlying structures, extracting important variables, and testing underlying assumptions through both visual and quantitative methods.</br> 
