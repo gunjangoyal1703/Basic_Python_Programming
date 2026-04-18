@@ -33,6 +33,7 @@ To simplify Python concepts. This helps understand in a unique style which is ea
 |P.|Basic Charts & Visual Encoding|
 |Q.|Statistica & Specialized Data Visualization Techniques|
 |R.|Real World & Interactive Visualizations|
+|S.|Covid Data Analysis|
 ## **CONCLUSION**  
 The ultimate goal of this repository is to make python easier than it already is.
 
