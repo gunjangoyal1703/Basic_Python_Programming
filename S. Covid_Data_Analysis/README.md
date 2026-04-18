@@ -4,14 +4,9 @@
  
 ---
  
-| | |
+| 📂 **Dataset**  |`covid_19_data.csv` (Jan 2020 – May 2021) |
 |---|---|
-| 👤 **Student Name** | Gunajn Goyal |
-| 🔢 **Roll Number** | 25070123048 |
-| 🏫 **Department** | Electronics & Telecommunication Engineering — A3 |
-| 🧪 **Experiments** | Experiment 19 & 20 |
-| 📂 **Dataset** | `covid_19_data.csv` (Jan 2020 – May 2021) |
-| 🛠️ **Tools Used** | Python, Pandas, NumPy, Plotly Express |
+| 🛠️ **Tools Used** | 1. Python</br> 2. Pandas </br>3. NumPy </br>4. Plotly </br>5. Express |
  
 ---
  
